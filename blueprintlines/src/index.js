@@ -82,7 +82,7 @@ function init() {
   console.log(mesh.geometry.faces.length * 3 * 3);
 
   scene.add(mesh);
-new THREE.FileLoader().load("geodata.json",function(data){
+new THREE.FileLoader().load("blueprintlines/geodata.json",function(data){
   data = JSON.parse(data);
   console.log("got data.");
   //ngeom.vertices.length = data.geometry.length*2;
