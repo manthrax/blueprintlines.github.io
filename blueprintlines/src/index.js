@@ -1,5 +1,5 @@
 /* eslint-disable */
-if (!Detector.webgl) Detector.addGetWebGLMessage();
+//if (!Detector.webgl) Detector.addGetWebGLMessage();
 
 var camera, controls, scene, renderer;
 
@@ -148,3 +148,4 @@ function animate() {
 function render() {
   renderer.render(scene, camera);
 }
+
